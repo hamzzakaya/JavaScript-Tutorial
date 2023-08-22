@@ -9,7 +9,7 @@ const bio = "Benim adım " + ad + " soyadım " + soyad + " " + sehir + " 'da ya�
 console.log(bio); // burada konsola Benim adım hamza soyadım KAYA Kütahya 'da yaşıyorum. 29 yaşındayım. yazısı basılır fakat bu yazı şekli bizi uğraştırır çünki noktalama yaparken veya yazılıarı ayırırken uğraşırız bunun yerine backtick ile yazmalıyız.
 
 
-// BACKTİCK İLE YAZILIŞ ÖRNEĞİ
+// BACKTİCK İLE YAZILIŞ ÖRNEĞİ TEMPLATE LİTERALS
 
 const newBio = `Benim adım ${ad} soyadım ${soyad}. ${sehir} 'da yaşıyorum. ${yas} yaşındayımmm`
 
