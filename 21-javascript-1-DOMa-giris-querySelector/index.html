@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript DOM</title>
+</head>
+<body>
+    <h1>JavaScript DOM</h1>
+    <p>Yeni konumuz DOM</p>
+    <h2 class="sınıf">class vererek DOM</h2>
+
+    <script>
+
+        const title = document.querySelector("h1")
+        console.log(title);// sonuç konsola <h1>JavaScript DOM</h1>
+        title.style.color = "red"//burada title değişkenine h1 attık h1 etiketi içindede JavaScript DOM yazıyordu bunun rengini kırmızı yaptık
+       
+        const cartCurt = document.querySelector("p")
+        console.log(cartCurt); //sonuç konsola <p>Yeni konumuz DOM</p> basar
+        cartCurt.style.color = "blue" // p etiketinde yazan Yeni konumuz DOM yazısını mavi yapar...
+
+
+        // bunu direk class vererekte yapabiliriz
+        const sınıf = document.querySelector(".sınıf")
+        sınıf.style.color = "yellow" // burada yukarda h2 etiketine sınıf adında bir class vermiştik bu sınıf classını çağırarak h2 etiketinde yazan class vererek DOM yazısını sarı renk yaptık
+
+
+    </script>
+</body>
+</html>
